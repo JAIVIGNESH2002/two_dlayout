@@ -22,15 +22,15 @@
  transform: rotate(360deg);
 } */
 /* row-2 c-1*/
-.seat-10-icon:hover,
+/* .seat-10-icon:hover,
 .seat-11-icon:hover,
 .seat-12-icon:hover,
 .seat-7-icon:hover,
 .seat-8-icon:hover,
 .seat-9-icon:hover {
  content:url("../../public/armchair-3-1@2x.png");
- transform: rotate(360deg);
-}
+ transform: rotate(360deg); */
+/* } */
 /* row-3 */
 /* .seat-icon89:hover,
 .seat-icon90:hover,
@@ -90,13 +90,13 @@
   height: 35px;
   object-fit: contain;
 }
-.seat-icon:hover,
+/* .seat-icon:hover,
 .seat-icon1:hover,
 .seat-icon2:hover,
 .seat-icon3:hover,
 .seat-icon4:hover{
   content: url("../../public/armchair-3-1@2x.png");
-}
+} */
 .seat-icon:checked,
 .seat-icon1:checked,
 .seat-icon2:checked,
