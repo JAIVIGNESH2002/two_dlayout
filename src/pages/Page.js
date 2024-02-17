@@ -75,10 +75,11 @@ const Page = () => {
 
       <SeatLeftComponent cname="seat-icon5" seat_id="WKS-146"/>
       <SeatLeftComponent cname="seat-icon6" seat_id="WKS-144"/>
+     <SeatLeftComponent cname="seat-icon10" seat_id="WKS-129" />
+      <SeatLeftComponent cname="seat-icon11" seat_id="WKS-128" />
+      <SeatLeftComponent cname="seat-icon12" seat_id="WKS-127" />
+      <SeatLeftComponent cname="seat-icon13" seat_id="WKS-126"/>
 
-      <SeatRightComponent cname="seat-icon7" seat_id="WKS-147" />
-      <SeatRightComponent cname="seat-icon8" seat_id="WKS-148" />
-      <SeatRightComponent cname="seat-icon9" seat_id="WKS-149" />
       <div className="table-group1">
         <div className="table-153" />
         <div className="table-152" />
@@ -87,11 +88,10 @@ const Page = () => {
         <div className="table-149" />
       </div>
 
-     <SeatLeftComponent cname="seat-icon10" seat_id="WKS-129" />
-      <SeatLeftComponent cname="seat-icon11" seat_id="WKS-128" />
-      <SeatLeftComponent cname="seat-icon12" seat_id="WKS-127" />
-      <SeatLeftComponent cname="seat-icon13" seat_id="WKS-126"/>
 
+      <SeatRightComponent cname="seat-icon7" seat_id="WKS-147" />
+      <SeatRightComponent cname="seat-icon8" seat_id="WKS-148" />
+      <SeatRightComponent cname="seat-icon9" seat_id="WKS-149" />
       <SeatRightComponent cname="seat-icon14" seat_id="WKS-119"/>
       <SeatRightComponent cname="seat-icon15" seat_id="WKS-120"/>
       <SeatRightComponent cname="seat-icon16" seat_id="WKS-121"/>
@@ -294,7 +294,6 @@ const Page = () => {
       <SeatUpComponent cname="seat-icon95" seat_id="WKS-004"></SeatUpComponent>
       <SeatUpComponent cname="seat-icon96" seat_id="WKS-003"></SeatUpComponent>
       <SeatUpComponent cname="seat-icon97" seat_id="WKS-002"></SeatUpComponent>
-      <SeatUpComponent cname="seat-icon98" seat_id="WKS-001"></SeatUpComponent>
 
       <div className="n-o-c-room-marker">
         <div className="table-6" />
@@ -335,6 +334,7 @@ const Page = () => {
       <SeatDownComponent cname="seat-12-icon" seat_id="WKS-007" />
       <SeatDownComponent cname="seat-11-icon" seat_id="WKS-008" />
       <SeatDownComponent cname="seat-10-icon" seat_id="WKS-009" />
+      <SeatUpComponent cname="seat-icon98" seat_id="WKS-001"></SeatUpComponent>
       <SeatDownComponent cname="seat-9-icon" seat_id="WKS-010" />
       <SeatDownComponent cname="seat-8-icon" seat_id="WKS-011" />
       <SeatDownComponent cname="seat-7-icon" seat_id="WKS-012" />
