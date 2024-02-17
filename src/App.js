@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { ChakraProvider } from "@chakra-ui/react";
 import {
   Routes,
   Route,
@@ -6,6 +7,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Page from "./pages/Page";
+import Temp from "./pages/Temp";
 
 function App() {
   const action = useNavigationType();
@@ -44,9 +46,12 @@ function App() {
   }, [pathname]);
 
   return (
+    <ChakraProvider>
     <Routes>
       <Route path="/" element={<Page />} />
+      <Route path="/temp" element={<Temp />} />
     </Routes>
+    </ChakraProvider>
   );
 }
 export default App;
