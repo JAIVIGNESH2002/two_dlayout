@@ -1,7 +1,7 @@
 import TableGroup from "../components/TableGroup";
 import "./Page.css";
 import React from "react";
-
+import { Tooltip } from '@chakra-ui/react'
 function SeatUpComponent(props) {
   const [selected, setSelected] = React.useState(false);
   const [hover, setHover] = React.useState(false);
